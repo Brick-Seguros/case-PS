@@ -5,17 +5,17 @@ Este Repositório tem como objetivo descrever o case do processo seletivo para a
 
 
 ## Skillset
-O case tem como principal intuito avaliar algumas capacidades que serão utilizadas de forma recorrente na sua jornada na área de dados da Brick. Para isso, o case é divido em etapas e níveis de complexidade: cada canditado deve realizar o case até o nível que achar pertinente com o estado atual de seu conhecimento.
+O case tem como principal intuito avaliar algumas capacidades que serão utilizadas de forma recorrente na sua jornada na área de dados da Brick. Para isso, o case é divido em etapas e níveis de complexidade: cada candidato deve realizar o case até o nível que achar pertinente com o estado atual de seu conhecimento.
 
 As skills a serem testadas em cada etapa são as seguintes:
-- Extração, normalizaçnao e enriquecimento de dados
+- Extração, normalização e enriquecimento de dados
 - Modelagem e treinamento de modelos de ML/DL para previsão da variável resposta
 - Deploy, serving e life cycle managing dos modelos
 
 ## O Problema a ser resolvido
 Você se chama James, você é um gestor de frotas e gostaria de provisionar o valor de depreciação dos veículos da sua frota ao longo do tempo.
 
-Hoje você usa uma média fixa de depreciação para seus veículos, independente de c=marca, tipo, categoria, modelo ou qualquer outra variável.
+Hoje você usa uma média fixa de depreciação para seus veículos, independente de marca, tipo, categoria, modelo ou qualquer outra variável.
 
 Sua frota é composta por veículos zero km e veículos comprados usados. Conforme gráfico abaixo, em um cenário real, a taxa de desvalorização dos ativos é diferente para veículos zero km e usados.
 
@@ -52,10 +52,6 @@ Sua frota é composta por veículos zero km e veículos comprados usados. Confor
   - Nível 2: Estabelecer pipeline de retreino e atualização dos modelos, com acompanhamento de métricas, challenging model, etc...
 </details>
 
-<details>
-  <summary>Etapa Extra: Deploy em Cloud</summary>
-  - Fazer deploy da arquitetura em alguma Cloud
-</details>
 
 ## Referências
 - Para extração dos valores de FIPE dos veíiculos: https://veiculos.fipe.org.br/ ou https://brasilapi.com.br/docs#tag/FIPE/paths/~1fipe~1marcas~1v1~1{tipoVeiculo}/get
@@ -71,8 +67,9 @@ Sua frota é composta por veículos zero km e veículos comprados usados. Confor
 - Artigo sobre NNs e Preços de carros usados: https://www.mdpi.com/2071-1050/14/15/8993
 
 
+## Dicas
+- Seja objetivo com sua métrica de avaliação dos modelos: Seu tempo é seu maior ativo, não use variáveis que não fazem sentido ou cuja utilização não irá melhorar sensívelmente seu resultado
 
-### Glossário
-- Depreciação: Perda de velor de um ativo ao longo do tempo
+- Além da avaliação técnica, você será avaliado pela sua capacidade de traduzir um problema em requisitos: Pense bem no impacto de uma acuracidade maior ou menor no resultado final do James. 
 
 
